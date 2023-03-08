@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+* a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(132, 180, 221);
+    cursor: pointer;
+    position: relative;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.938),rgba(5, 14, 1, 0.938),rgba(10, 24, 2, 0.938),rgba(14, 36, 2, 0.938));
+}
+
+* a:hover::after{
+    width:100%
+}
+
+header{
+    display: flex;
+    margin: 50px;
+}
+
+header img{
+    width: 50%;
+    flex : 1;
+    padding: 10px;
+    border: 3px rgb(217, 207, 207) solid;
+    background-color: rgb(62, 67, 59);
+}
+
+.list{
+    flex: 1;
+}
+
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+
+#about{
+    padding: 50px;
+    text-align:center ;
+    position: relative;
+}
+
+#menu {
+    position:relative;
+    margin: 50px;
+    padding: 10px;
+    border: 3px rgb(217, 207, 207) solid;
+}
+
+#menu .container{
+    text-align: center;
+}
+
+#menu img{
+    height: 50%;
+    width:50%;
+}
+
+#about .check{
+    font-size: larger;
+    margin-left: -200px;
+}
+
+#contact{
+    padding: 50px;
+}
+
+.text p{
+    font-size: larger;
+}
+
+.bottom{
+    display: flex;
+    height: 80vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+form{
+    flex-basis: 50%;
+    align-self: flex-start;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 100px;
+    background-color: rgb(97, 126, 22);
+}
+
+footer{
+    justify-self:end;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    border:2px solid rgb(79, 75, 75); 
+    background-color: black;
+}
+
+.social ul li{
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+.social ul{
+    list-style: none;
+}
